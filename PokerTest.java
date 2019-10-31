@@ -19,7 +19,7 @@ class PokerTest {
 	public Poker sut7=new Poker("2H 3D 5S 8C KD","2C 3H AS AC AH");
 	public Poker sut8=new Poker("2H 2D 2S 2C KD","2C 3H 4S 8C AH");
 	public Poker sut9=new Poker("2H 3D 5S 8C KD","2C 2H 2S 2D KH");
-/**	@Test
+	@Test
 	void testpar() {
 		assertEquals(true,sut.par(sut.m1,sut.m2));
 	}
@@ -43,7 +43,7 @@ class PokerTest {
 	@Test
 	void testdoblePar2() {
 		assertEquals(true,sut5.doblePar(sut5.m1,sut5.m2));
-	}**/
+	}
 	
 	@Test
 	void testtrio() {
